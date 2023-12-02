@@ -1,0 +1,48 @@
+day_02    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  17.41 ms      │ 21.09 ms      │ 17.48 ms      │ 17.53 ms      │ 100     │ 100
+
+day_02    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part2  11.37 ms      │ 14.65 ms      │ 11.4 ms       │ 11.47 ms      │ 100     │ 100
+
+day_02    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1  17.47 ms      │ 18.6 ms       │ 17.69 ms      │ 17.74 ms      │ 100     │ 100
+╰─ part2  11.39 ms      │ 11.79 ms      │ 11.41 ms      │ 11.43 ms      │ 100     │ 100
+
+day_02    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1  17 ms         │ 22.09 ms      │ 17.08 ms      │ 17.2 ms       │ 100     │ 100
+╰─ part2  11.35 ms      │ 11.75 ms      │ 11.43 ms      │ 11.44 ms      │ 100     │ 100
+
+day_02    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1  16.96 ms      │ 22.81 ms      │ 17.5 ms       │ 17.48 ms      │ 100     │ 100
+╰─ part2  11.36 ms      │ 12.19 ms      │ 11.43 ms      │ 11.58 ms      │ 100     │ 100
+
+day_02    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1  16.93 ms      │ 18.71 ms      │ 17.02 ms      │ 17.07 ms      │ 100     │ 100
+╰─ part2  10.65 ms      │ 11.44 ms      │ 10.75 ms      │ 10.77 ms      │ 100     │ 100
+
+day_02    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1  16.97 ms      │ 22.29 ms      │ 17.06 ms      │ 17.18 ms      │ 100     │ 100
+╰─ part2  10.72 ms      │ 11.43 ms      │ 10.76 ms      │ 10.8 ms       │ 100     │ 100
+
+
+
+-------------------------
+--- Lazy static regex ---
+-------------------------
+
+day_02    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1  228.9 µs      │ 1.125 ms      │ 243.2 µs      │ 253.9 µs      │ 100     │ 100
+╰─ part2  10.7 ms       │ 11.24 ms      │ 10.73 ms      │ 10.75 ms      │ 100     │ 100
+
+day_02    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1  238.6 µs      │ 1.363 ms      │ 250.4 µs      │ 267.7 µs      │ 100     │ 100
+╰─ part2  239.6 µs      │ 534.6 µs      │ 242.6 µs      │ 248.2 µs      │ 100     │ 100
+
+day_02    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1  235.3 µs      │ 1.193 ms      │ 256.5 µs      │ 266 µs        │ 100     │ 100
+╰─ part2  242 µs        │ 505.8 µs      │ 250.7 µs      │ 255.4 µs      │ 100     │ 100
+
+day_02    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1  220.9 µs      │ 1.161 ms      │ 239.8 µs      │ 250.1 µs      │ 100     │ 100
+╰─ part2  247.5 µs      │ 535.6 µs      │ 253.4 µs      │ 257.7 µs      │ 100     │ 100
+
