@@ -1,0 +1,95 @@
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  35.41 µs      │ 54.74 µs      │ 35.66 µs      │ 36.4 µs       │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part2  28.5 ns       │ 31.75 ns      │ 28.82 ns      │ 29.1 ns       │ 100     │ 25600
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  31.04 µs      │ 56.24 µs      │ 31.16 µs      │ 32.45 µs      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  31.29 µs      │ 56.29 µs      │ 32.49 µs      │ 34.54 µs      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  35.16 µs      │ 55.99 µs      │ 35.37 µs      │ 36.13 µs      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  35.7 µs       │ 54.58 µs      │ 36.1 µs       │ 36.63 µs      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  36.58 µs      │ 54.33 µs      │ 36.99 µs      │ 37.79 µs      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  36.58 µs      │ 54.83 µs      │ 37.74 µs      │ 37.94 µs      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  37.16 µs      │ 54.45 µs      │ 37.54 µs      │ 38.21 µs      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  36.87 µs      │ 66.99 µs      │ 37.12 µs      │ 37.81 µs      │ 100     │ 100
+
+day_01        fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part2      133.2 µs      │ 156.1 µs      │ 133.6 µs      │ 134.3 µs      │ 100     │ 100
+╰─ part2_aho  26.24 ms      │ 27.08 ms      │ 26.38 ms      │ 26.44 ms      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  38.99 µs      │ 108.8 µs      │ 40.52 µs      │ 41.39 µs      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  37.37 µs      │ 65.29 µs      │ 37.85 µs      │ 38.76 µs      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  63.08 µs      │ 159.5 µs      │ 71.95 µs      │ 72.13 µs      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  38.04 µs      │ 62.08 µs      │ 39.41 µs      │ 39.91 µs      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  37.45 µs      │ 65.74 µs      │ 39.35 µs      │ 40.14 µs      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  38.54 µs      │ 63.7 µs       │ 39.16 µs      │ 40.06 µs      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  37.99 µs      │ 61.04 µs      │ 39.12 µs      │ 39.43 µs      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  45.91 µs      │ 102.6 µs      │ 46.04 µs      │ 46.94 µs      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  50.54 µs      │ 97.08 µs      │ 50.66 µs      │ 51.59 µs      │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  64.12 µs      │ 114.4 µs      │ 66.12 µs      │ 66.8 µs       │ 100     │ 100
+
+day_01    fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1  53.58 µs      │ 102.7 µs      │ 53.83 µs      │ 54.55 µs      │ 100     │ 100
+
+day_01        fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part2      141.9 µs      │ 217.7 µs      │ 160.7 µs      │ 156.9 µs      │ 100     │ 100
+╰─ part2_aho  26.15 ms      │ 28.4 ms       │ 26.2 ms       │ 26.26 ms      │ 100     │ 100
+
+day_01        fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part2      142.2 µs      │ 237.6 µs      │ 161.2 µs      │ 162.7 µs      │ 100     │ 100
+╰─ part2_aho  26.13 ms      │ 28.56 ms      │ 26.18 ms      │ 26.23 ms      │ 100     │ 100
+
+day_01        fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part2      210.2 µs      │ 322.2 µs      │ 234.8 µs      │ 239.3 µs      │ 100     │ 100
+╰─ part2_aho  26.24 ms      │ 29.25 ms      │ 26.34 ms      │ 26.53 ms      │ 100     │ 100
+
+day_01        fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part2      511.8 µs      │ 738.4 µs      │ 518.5 µs      │ 546 µs        │ 100     │ 100
+╰─ part2_aho  26.28 ms      │ 27.1 ms       │ 26.41 ms      │ 26.45 ms      │ 100     │ 100
+
+day_01        fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part2      511.6 µs      │ 739.9 µs      │ 514.9 µs      │ 542.7 µs      │ 100     │ 100
+╰─ part2_aho  26.28 ms      │ 26.91 ms      │ 26.37 ms      │ 26.44 ms      │ 100     │ 100
+
+day_01        fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part2      135.7 µs      │ 197.2 µs      │ 148.2 µs      │ 146.3 µs      │ 100     │ 100
+╰─ part2_aho  26.36 ms      │ 28.62 ms      │ 26.48 ms      │ 26.58 ms      │ 100     │ 100
+
+day_01        fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part2      133.7 µs      │ 179.3 µs      │ 133.9 µs      │ 135.1 µs      │ 100     │ 100
+╰─ part2_aho  26.19 ms      │ 28.58 ms      │ 26.47 ms      │ 26.51 ms      │ 100     │ 100
+
