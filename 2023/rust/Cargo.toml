@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+
+members = ["day-*"]
+
+[workspace.dependencies]
+
+# glam = "0.24.2" # fast math library
+itertools = "0.12.0"                                # extra iterator functionalities
+regex = "1.10.2"                                    # regex
+once_cell = "1.18.0"                                # once cell
+nom = "7.1.3"                                       # parser
+petgraph = "0.6.4"                                  # graph
+rayon = "1.8.0"                                     # parallelism
+rstest = "0.18.2"                                   # fixture based test framework
+rstest_reuse = "0.6.0"                              # reuse rstest attrs
+divan = "0.1.3"                                     # benchmark
+miette = { version = "5.10", features = ["fancy"] } # diagnostic library
+thiserror = "1.0.50"                                # error
+dhat = "0.3.2"                                      # heap profiling
+tracing = "0.1.40"                                  # tracing
+tracing-subscriber = "0.3.18"                       # tracing subscriber
+tracing-test = "0.2.4"                              # tracing test
+tracing-tracy = "0.10.4"                            # tracy profiler
+tracy-client = "0.16.4"                             # tracy
+tracy-client-sys = "0.22.0"                         # tracy
+
+[profile.dhat]
+inherits = "release"
+debug = 1
+
+[profile.flamegraph]
+inherits = "release"
+debug = true
