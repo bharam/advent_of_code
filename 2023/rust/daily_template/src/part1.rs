@@ -8,7 +8,6 @@ pub fn process(input: &str) -> miette::Result<String, AocError> {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use rstest::rstest;
 
     #[test]
     fn test_process() -> miette::Result<()> {
