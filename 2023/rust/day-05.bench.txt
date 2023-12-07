@@ -1,0 +1,29 @@
+day_05                  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1_btree          34.58 µs      │ 69.29 µs      │ 35.87 µs      │ 36.5 µs       │ 100     │ 100
+
+day_05                  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1_btree          35.49 µs      │ 72.54 µs      │ 35.79 µs      │ 36.99 µs      │ 100     │ 100
+
+day_05                  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1_btree          35.62 µs      │ 108.4 µs      │ 36.95 µs      │ 38.44 µs      │ 100     │ 100
+
+day_05                  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1_binary_search  48.49 µs      │ 118.7 µs      │ 54.06 µs      │ 54.98 µs      │ 100     │ 100
+╰─ part1_btree          50.87 µs      │ 68.41 µs      │ 51.83 µs      │ 52.12 µs      │ 100     │ 100
+
+day_05                  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1_binary_search  33.16 µs      │ 49.91 µs      │ 33.29 µs      │ 33.64 µs      │ 100     │ 100
+╰─ part1_btree          34.87 µs      │ 47.37 µs      │ 35.91 µs      │ 36 µs         │ 100     │ 100
+
+day_05                  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1_binary_search  33.79 µs      │ 52.58 µs      │ 33.95 µs      │ 34.94 µs      │ 100     │ 100
+╰─ part1_btree          34.66 µs      │ 53.45 µs      │ 35.95 µs      │ 36.18 µs      │ 100     │ 100
+
+day_05                  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1_binary_search  44.95 µs      │ 106.7 µs      │ 50.33 µs      │ 52.7 µs       │ 100     │ 100
+╰─ part2_binary_search  486.8 µs      │ 762.3 µs      │ 544.7 µs      │ 578.7 µs      │ 100     │ 100
+
+day_05                  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1_binary_search  30.58 µs      │ 72.87 µs      │ 30.87 µs      │ 31.99 µs      │ 100     │ 100
+╰─ part2_binary_search  486.9 µs      │ 586.9 µs      │ 490.3 µs      │ 497.3 µs      │ 100     │ 100
+
