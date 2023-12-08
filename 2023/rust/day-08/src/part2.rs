@@ -7,7 +7,10 @@ pub fn process(input: &str) -> miette::Result<usize, AocError> {
     optimized(input)
 }
 
-/// Optimized solution using LCM
+/// # Optimized solution using LCM
+///
+/// The path for each starting node will result in a cycle.
+/// The length of the cycle is the least common multiple of the lengths of the individual paths.
 fn optimized(input: &str) -> miette::Result<usize, AocError> {
     let (instructions, nodes) = parse_input(input);
 
@@ -127,4 +130,3 @@ XXX = (XXX, XXX)";
         Ok(())
     }
 }
-

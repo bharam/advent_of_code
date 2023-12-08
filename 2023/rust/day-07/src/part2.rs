@@ -51,15 +51,13 @@ impl HandType {
         let mode_idx = counter
             .iter()
             .enumerate()
-            .skip(1) // Skip jokers
+            .skip(1) // Skip joker
             .map(|(i, count)| (count, i))
             .max()
             .unwrap()
             .1;
-        for _ in 0..counter[0] {
-            counter[mode_idx] += 1;
-            counter[0] -= 1;
-        }
+        counter[mode_idx] += counter[0];
+        counter[0] = 0;
 
         match counter.iter().max().unwrap() {
             5 => HandType::FiveOfAKind,
@@ -233,6 +231,3 @@ QQQJA 483";
 // 248426052 is too high
 // 248494576 if JJJJJ is HighCard
 // 247899149 handling jokers
-
-
-
