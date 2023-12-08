@@ -1,9 +1,11 @@
 work day part:
-    cargo watch -c -w {{day}} -x "check -p {{day}}" -s "just test {{part}} -p {{day}}" -s "just lint {{day}}" -s "just bench {{day}} {{part}}"
+    cargo watch -c -w {{day}} -x "check -p {{day}}" -s "just test {{day}} {{part}}" -s "just lint {{day}}" -s "just bench {{day}} {{part}}" -s "just dhat {{day}} {{part}}"
+run day part:
+    cargo run -p {{day}} --bin {{part}}
 lint day:
     cargo clippy -p {{day}}
-test part +FLAGS='-p 01':
-    cargo nextest run {{FLAGS}} {{part}}
+test day part:
+    cargo nextest run -p {{day}} {{part}}
 bench-all:
     cargo bench -q > benchmarks.txt
 bench day part:
