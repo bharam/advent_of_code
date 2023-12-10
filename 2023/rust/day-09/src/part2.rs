@@ -20,23 +20,20 @@ fn parse_input(input: &str) -> Vec<Vec<i32>> {
         .collect()
 }
 
-fn predict_history(history: Vec<i32>) -> i32 {
-    let mut sequences = vec![history];
-    let mut curr_seq = sequences.last().unwrap();
-    while !curr_seq.iter().all(|&n| n == 0) {
-        let next_seq = curr_seq
+fn predict_history(mut history: Vec<i32>) -> i32 {
+    let mut evidences = vec![history.first().copied().unwrap()];
+    while !history.iter().all(|&n| n == 0) {
+        history = history
             .windows(2)
             .map(|window| window[1] - window[0])
             .collect::<Vec<_>>();
-        sequences.push(next_seq);
-        curr_seq = &sequences.last().unwrap();
+        evidences.push(history.first().copied().unwrap());
     }
 
-    let result = sequences
+    let result = evidences
         .into_iter()
         .rev()
         .skip(1)
-        .map(|seq| *seq.first().unwrap())
         .reduce(|acc, n| n - acc)
         .unwrap();
 
@@ -56,4 +53,3 @@ mod tests {
         Ok(())
     }
 }
-
