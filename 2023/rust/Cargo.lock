@@ -282,6 +282,24 @@ dependencies = [
 ]
 
 [[package]]
+name = "day-11"
+version = "0.1.0"
+dependencies = [
+ "dhat",
+ "divan",
+ "indoc",
+ "itertools",
+ "miette",
+ "nom",
+ "once_cell",
+ "regex",
+ "rstest",
+ "thiserror",
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
 name = "dhat"
 version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -448,6 +466,12 @@ name = "hermit-abi"
 version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d77f7ec81a6d05a3abb01ab6eb7590f6083d08449fe5a1c8b1e620283546ccb7"
+
+[[package]]
+name = "indoc"
+version = "2.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1e186cfbae8084e513daff4240b4797e342f988cecda4fb6c939150f96315fd8"
 
 [[package]]
 name = "is-terminal"

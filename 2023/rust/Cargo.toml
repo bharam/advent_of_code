@@ -24,6 +24,7 @@ tracing-test = "0.2.4"                              # tracing test
 tracing-tracy = "0.10.4"                            # tracy profiler
 tracy-client = "0.16.4"                             # tracy
 tracy-client-sys = "0.22.0"                         # tracy
+indoc = "2.0.4"                                     # unindent multi-lined string literals
 
 [profile.dhat]
 inherits = "release"
